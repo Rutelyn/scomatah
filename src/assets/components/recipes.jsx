@@ -2,7 +2,7 @@
 
 const Recipes = () => {
   return (
-    <div>R</div>
+    <div>Recipes</div>
   )
 }
 
