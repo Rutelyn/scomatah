@@ -2,7 +2,7 @@
 
 const Recipes = () => {
   return (
-    <div>Recipes</div>
+    <div className="text-4xl place-items-center">Recipes</div>
   )
 }
 

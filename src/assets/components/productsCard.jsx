@@ -18,7 +18,7 @@ const ProductsCard = ({ images = [], title }) => {
           className="w-full h-full object-cover rounded-lg transition-all duration-300"
         />
       </div>
-      <p className="font-sans font-bold text-lg text-black mt-2">{title}</p>
+      <p className="font-serif font-bold text-lg text-black mt-2">{title}</p>
     </div>
   );
 };

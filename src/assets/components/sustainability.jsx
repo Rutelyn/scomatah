@@ -2,7 +2,7 @@
 
 const Sustainability = () => {
   return (
-    <div>sustainability</div>
+    <div>Sustainability</div>
   )
 }
 
