@@ -3,8 +3,7 @@ import { useState } from "react";
 const ProductsCard = ({ images = [], title }) => {
   const [hovered, setHovered] = useState(false);
 
-  // Ensure we don't access undefined indexes
-  const displayImage = images.length > 1 ? (hovered ? images[1] : images[0]) : "fallback.jpg";
+  const displayImage = images.length > 1 ? (hovered ? images[1] : images[0]) : "grittyOPouch1.jpg";
 
   return (
     <div
