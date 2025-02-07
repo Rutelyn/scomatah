@@ -1,8 +1,11 @@
+import ProductsCard from "./productsCard"
 
 
 const ContactUs = () => {
   return (
-    <div>contactUs</div>
+    <div>
+      
+    </div>
   )
 }
 
