@@ -15,7 +15,7 @@ import tainStraw1 from "../images/tainIceStraw1.jpg"
 import tainStrawSac2 from "../images/tainStrawSac2.jpg"
 import tainStrawSac1 from "../images/tainStrawSac1.jpg"
 import tainVan3 from "../images/tainIceVan3.jpg"
-import tainVan1 from "../images/tainIceVan1.jpg"
+import tainVan2 from "../images/tainIceVan2.jpg"
 import tainIceVan2 from "../images/tainVanSac2.jpg"
 import tainIceVan1 from "../images/tainVanSac1.jpg"
 import yoddyCan1 from "../images/yoddyCan1.jpg"
@@ -39,7 +39,7 @@ const Products = () => {
         <ProductsCard images={[tainIS2, tainIS1]} title="Tain Ice Original Sachet" />
         <ProductsCard images={[tainStraw3, tainStraw1]} title="Tain Ice Strawberry Bowl" />
         <ProductsCard images={[tainStrawSac2, tainStrawSac1]} title="Tain Ice Strawberry Sachet" />
-        <ProductsCard images={[tainVan3, tainVan1]} title="Tain Ice Vanilla Bowl" />
+        <ProductsCard images={[tainVan3, tainVan2]} title="Tain Ice Vanilla Bowl" />
         <ProductsCard images={[tainIceVan2, tainIceVan1]} title="Tain Ice Vanilla Sachet" />
         <ProductsCard images={[yoddyCan3, yoddyCan1]} title="Yoddy Baby Food Can" />
         <ProductsCard images={[yoddySac2, yoddySac1]} title="Yoddy Baby Food Sachet" />
