@@ -1,4 +1,6 @@
 import bgYellow from "../images/bgYellow.png";
+import ProductsButton from "./productsButton";
+import RecipeButton from "./recipeButton";
 
 const HeroSection = () => {
   return (
@@ -10,6 +12,10 @@ const HeroSection = () => {
     <h2 className="text-4xl font-bold text-white text-center max-w-2xl">
       Start Your Healthy Snacking Journey With Us
     </h2>
+    <div className="relative grid grid-rows-1 ">
+    <ProductsButton/> <RecipeButton/>
+    </div>
+    
   </div>
   
      

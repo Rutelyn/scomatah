@@ -28,21 +28,21 @@ import ProductsCard from "./productsCard"
 const Products = () => {
   return (
     <div className="relative grid grid-cols gap-4">
-      <div className=" place-items-center font-sans fond-bold text-8xl"> <h2> Our Products</h2></div>
+      <div className=" text-center font-serif fond-bold text-4xl"> <h1> Our Products</h1></div>
 
       <div className="flex flex-wrap gap-6 justify-center">
-        <ProductsCard images={[grittyOP3, grittyOP1,]} title="Gritty Original Pouch" />
-        <ProductsCard images={[grittyOS1, grittyOS2]} title="Gritty Original Sachet" />
-        <ProductsCard images={[grittyPP3, grittyPP1,]} title="Gritty Plus Pouch" />
-        <ProductsCard images={[grittyPS1, grittyPS2]} title="Gritty Plus Sachet" />
-        <ProductsCard images={[tainIce3, tainIce1]} title="Tain Ice Original Bowl" />
-        <ProductsCard images={[tainIS2, tainIS1]} title="Tain Ice Original Sachet" />
-        <ProductsCard images={[tainStraw3, tainStraw1]} title="Tain Ice Strawberry Bowl" />
-        <ProductsCard images={[tainStrawSac2, tainStrawSac1]} title="Tain Ice Strawberry Sachet" />
-        <ProductsCard images={[tainVan3, tainVan2]} title="Tain Ice Vanilla Bowl" />
-        <ProductsCard images={[tainIceVan2, tainIceVan1]} title="Tain Ice Vanilla Sachet" />
-        <ProductsCard images={[yoddyCan3, yoddyCan1]} title="Yoddy Baby Food Can" />
-        <ProductsCard images={[yoddySac2, yoddySac1]} title="Yoddy Baby Food Sachet" />
+        <ProductsCard images={[grittyOP3, grittyOP1,]} title="Gritty Original (Big Pouch)" />
+        <ProductsCard images={[grittyOS1, grittyOS2]} title="Gritty Original (Sachet)" />
+        <ProductsCard images={[grittyPP3, grittyPP1,]} title="Gritty Plus (Big Pouch)" />
+        <ProductsCard images={[grittyPS1, grittyPS2]} title="Gritty Plus (Sachet)" />
+        <ProductsCard images={[tainIce3, tainIce1]} title="Tain Ice Original (Bowl)" />
+        <ProductsCard images={[tainIS2, tainIS1]} title="Tain Ice Original (Sachet)" />
+        <ProductsCard images={[tainStraw3, tainStraw1]} title="Tain Ice Strawberry (Bowl)" />
+        <ProductsCard images={[tainStrawSac2, tainStrawSac1]} title="Tain Ice Strawberry (Sachet)" />
+        <ProductsCard images={[tainVan3, tainVan2]} title="Tain Ice Vanilla (Bowl)" />
+        <ProductsCard images={[tainIceVan2, tainIceVan1]} title="Tain Ice Vanilla (Sachet)" />
+        <ProductsCard images={[yoddyCan3, yoddyCan1]} title="Yoddy (Can)" />
+        <ProductsCard images={[yoddySac2, yoddySac1]} title="Yoddy (Sachet)" />
       </div>
 
     </div>
