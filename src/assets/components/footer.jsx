@@ -11,7 +11,7 @@ const Footer = () => {
           <div>
             <h2 className="text-lg font-bold text-white">Scomatah Enterprise</h2>
             <p className="mt-2 text-sm">
-              Committed to sustainable agriculture through innovative organic solutions.
+            We are passionate about promoting health and sustainability through our plantain-based products.
             </p>
           </div>
 
