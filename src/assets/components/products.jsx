@@ -27,7 +27,7 @@ import ProductsCard from "./productsCard"
 
 const Products = () => {
   return (
-    <div className="relative grid grid-cols gap-4">
+    <div className="relative grid grid-cols gap-4 mb-8">
       <div className=" text-center font-serif fond-bold text-4xl"> <h1> Our Products</h1></div>
 
       <div className="flex flex-wrap gap-6 justify-center">
