@@ -23,7 +23,7 @@ import yoddyCan3 from "../images/yoddyCan3.jpg"
 import yoddySac1 from "../images/yoddySac1.jpg"
 import yoddySac2 from "../images/yoddySac2.jpg"
 import ProductsCard from "./productsCard"
-
+import { Link } from "react-router-dom"
 
 const Products = () => {
   return (
@@ -44,7 +44,13 @@ const Products = () => {
         <ProductsCard images={[yoddyCan3, yoddyCan1]} title="Yoddy (Can)" />
         <ProductsCard images={[yoddySac2, yoddySac1]} title="Yoddy (Sachet)" />
       </div>
-
+      <div className="flex justify-center items-center">
+        <Link to="/contactus">
+          <button className="bg-[#e6c249] hover:bg-[#f5df31] text-white font-semibold py-3 px-6 rounded-lg shadow-lg transition duration-300">
+            Make a Purchase
+          </button>
+        </Link>
+      </div>
     </div>
   )
 }

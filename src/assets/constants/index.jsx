@@ -29,7 +29,7 @@ const K = {
         },
 
         {
-            name: "ContactUs",
+            name: "Contact Us",
             path: "/contactus"
         },
     ],

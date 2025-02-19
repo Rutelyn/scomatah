@@ -32,9 +32,9 @@ const HeroSection = () => {
         <h2 className="text-4xl md:text-5xl font-bold max-w-2xl">
           Start Your Healthy Snacking Journey With Us
         </h2>
-        <div className="mt-6 flex gap-4">
+        <div className="mt-10 flex gap-4">
           <Link to="/recipes">
-            <button className="bg-blue-300 hover:bg-blue-400 text-white font-semibold py-3 px-6 rounded-lg shadow-lg transition duration-300">
+            <button className="bg-yellow-400 hover:bg-yellow-300 text-white font-semibold py-3 px-6 rounded-lg shadow-lg transition duration-300">
               View Recipes
             </button>
           </Link>

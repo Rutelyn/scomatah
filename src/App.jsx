@@ -12,6 +12,7 @@ import ChilledTreat from "./assets/components/chilledTreat";
 import BerryMix from "./assets/components/berryMix";
 import FruityDelight from "./assets/components/fruityDelight";
 import PlantainShake from "./assets/components/plantainShake";
+import ThankYou from "./assets/components/thankYou";
 
 const router = createBrowserRouter(
   [
@@ -75,7 +76,10 @@ const router = createBrowserRouter(
         path: "/plantainshake",
         element: <PlantainShake/>
       },
-    
+      {
+        path: "/thankyou",
+        element: <ThankYou/>
+      },
   ]  
 )
 function App() {
