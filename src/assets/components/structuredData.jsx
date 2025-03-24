@@ -17,7 +17,7 @@ const structuredData = {
 <Helmet>
     <title>Start Your Healthy Snacking Journey With Us</title>
     <meta name="description" content="We are passionate about promoting health and sustainability through our plantain-based products. Our journey started with a simple idea: to create nutritious and eco-friendly food options while supporting local farmers and communities." />
-    <meta name="keywords" content="Scomatah, plant based snacks, Ghana agro-processing business, nutritional snacks, health, wellbeing, Agogo Asante" />
+    <meta name="keywords" content="Scomatah, plant-based snacks, Asante region Ghana agro-processing business, nutritional snacks, health, wellbeing, Agogo Asante" />
     <meta property="og:title" content="Start Your Healthy Snacking Journey With Us" />
     <meta property="og:description" content="Prioritizing health and wellness, Encouraging sustainable farming and production, Empowering local communities and farmers" />
     <meta property="og:image" content="https://scomatah.netlify.app/images/logo.png" />
