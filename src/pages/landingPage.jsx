@@ -5,8 +5,11 @@ import Products from "../assets/components/products"
 import Recipes from "../assets/components/recipes"
 import Sustainability from "../assets/components/sustainability"
 
+import { getSheetsData } from "../assets/lib/readSheet"
 
-const LandingPage = () => {
+const LandingPage = async () => {
+  const data = await getSheetsData()
+  console.log("data:", data)
   return (
     <div>
 <HeroSection/>

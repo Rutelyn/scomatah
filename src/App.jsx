@@ -3,7 +3,6 @@ import AboutUs from "./assets/components/aboutUs";
 import RootLayout from "./layouts/rootLayout";
 import LandingPage from "./pages/landingPage";
 import Products from "./assets/components/products";
-import Recipes from "./assets/components/recipes";
 import Sustainability from "./assets/components/sustainability";
 import ContactUs from "./assets/components/contactUs";
 import YogurtPunch from "./assets/components/yogurtPunch";
@@ -36,10 +35,6 @@ const router = createBrowserRouter(
         {
           path: "/products",
           element: <Products/>
-        },
-        {
-          path: "/recipes",
-          element: <Recipes/>
         },
         {
             path: "/sustainability",

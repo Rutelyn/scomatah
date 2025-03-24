@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom"; // If using React Router for navigation
+import { Link } from "react-router-dom";
 import grittyOPouch3 from "../images/grittyOPouch3.jpg";
 import grittyPPouch3 from "../images/grittyPPouch3.jpg";
 import tainIce3 from "../images/tainIce3.jpg";
@@ -14,32 +14,35 @@ const HeroSection = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImage((prev) => (prev + 1) % images.length);
-    }, 5000); // Change image every 5 seconds
+    }, 5000);
 
     return () => clearInterval(interval);
   }, []);
 
   return (
     <div 
-      className="relative flex flex-col items-center justify-center h-screen w-full bg-cover bg-center text-white"
+      className="relative flex flex-col items-center justify-center h-screen w-full bg-cover bg-center text-white px-6"
       style={{ backgroundImage: `url(${images[currentImage]})` }}
     >
       {/* Overlay */}
-      <div className="absolute inset-0 bg-opacity-100"></div>
+      <div className="absolute inset-0 bg-black bg-opacity-40"></div>
 
       {/* Content */}
-      <div className="relative z-10 text-center px-6">
-        <h2 className="text-4xl md:text-5xl font-bold max-w-2xl">
+      <div className="relative z-10 text-center max-w-2xl">
+        <h2 className="text-4xl md:text-6xl font-bold tracking-wide text-white">
           Start Your Healthy Snacking Journey With Us
         </h2>
+        <p className="mt-4 text-lg md:text-xl text-white opacity-90">
+          Discover delicious and nutritious snacks that fit your lifestyle.
+        </p>
         <div className="mt-10 flex gap-4">
           <Link to="/recipes">
-            <button className="bg-yellow-400 hover:bg-yellow-300 text-white font-semibold py-3 px-6 rounded-lg shadow-lg transition duration-300">
+            <button className="bg-white text-black font-semibold py-3 px-6 rounded-full shadow-md hover:bg-gray-100 transition duration-300">
               View Recipes
             </button>
           </Link>
           <Link to="/products">
-            <button className="bg-yellow-300 hover:bg-yellow-400 text-white font-semibold py-3 px-6 rounded-lg shadow-lg transition duration-300">
+            <button className="bg-white text-black font-semibold py-3 px-6 rounded-full shadow-md hover:bg-gray-100 transition duration-300">
               View Products
             </button>
           </Link>

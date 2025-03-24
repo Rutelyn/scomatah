@@ -37,15 +37,17 @@ const ContactUs = () => {
           <ul className="space-y-4">
             <li className="flex items-center gap-3">
               <Phone className="text-teal-500 w-5 h-5" />
-              <span>+233 123 456 789</span>
+              <span>+233240042791</span>
             </li>
             <li className="flex items-center gap-3">
               <Mail className="text-teal-500 w-5 h-5" />
-              <span>scomatahenterprise@gmail.com</span>
+              <span>Schomatah.guy2@gmail.com</span>
+              <span>osarfo10@gmail.com</span>
             </li>
             <li className="flex items-center gap-3">
               <MapPin className="text-teal-500 w-5 h-5" />
-              <span>Accra, Ghana</span>
+              <span>Agogo Asante Akim North </span>
+              <span>(ABURO DAN HO) Opposite Telenergy/Asadu Royal Filling Station</span>
             </li>
           </ul>
         </div>
