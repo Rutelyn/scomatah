@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 import grittyPouch3 from "../images/grittyPPouch3.jpg";
-import grittyAlt1 from "../images/grittyAlt1.jpg";
-import grittyAlt2 from "../images/grittyAlt2.jpg";
+import grittyPSac1 from "../images/grittyPSac1.jpg";
+import grittyOPouch3 from "../images/grittyOPouch3.jpg";
 
-const images = [grittyPouch3, grittyAlt1, grittyAlt2];
+const images = [grittyPouch3, grittyPSac1, grittyOPouch3];
 
 const Sustainability = () => {
   const [currentImage, setCurrentImage] = useState(0);
