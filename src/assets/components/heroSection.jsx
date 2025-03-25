@@ -8,7 +8,9 @@ import tainIceVan3 from "../images/tainIceVan3.jpg";
 
 const images = [grittyOPouch3, grittyPPouch3, tainIce3, tainIceStraw3, tainIceVan3];
 
-const HeroSection = () => {
+const HeroSection = ({data}) => {
+  const {heroSection: { title, summary }} = data
+
   const [currentImage, setCurrentImage] = useState(0);
 
   useEffect(() => {

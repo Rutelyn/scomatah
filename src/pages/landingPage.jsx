@@ -8,12 +8,13 @@ import { getSheetsData } from "../assets/lib/readSheet"
 
 const LandingPage = async () => {
   const data = await getSheetsData()
+  const {heroSection, aboutUs, products} = data;
   console.log("data:", data)
   return (
     <div>
-<HeroSection/>
-<AboutUs/>
-<Products/>
+<HeroSection data={hero}/>
+<AboutUs data={abt}/>
+<Products data={pro}/>
 <Sustainability/>
 <ContactUs/>
 
