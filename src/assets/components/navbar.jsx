@@ -1,4 +1,4 @@
-import logo from "../images/logo.png";
+import logo from "../images/scomaLogo.jpeg";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import K from "../constants";

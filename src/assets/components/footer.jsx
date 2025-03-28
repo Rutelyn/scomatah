@@ -21,7 +21,6 @@ const Footer = () => {
             <ul className="mt-2 space-y-2 text-sm">
               <li><Link to="/about" className="hover:text-white">About Us</Link></li>
               <li><Link to="/products" className="hover:text-white">Products</Link></li>
-              <li><Link to="/recipes" className="hover:text-white">Recipes</Link></li>
               <li><Link to="/sustainability" className="hover:text-white">Sustainability</Link></li>
             </ul>
           </div>
@@ -32,15 +31,15 @@ const Footer = () => {
             <ul className="mt-2 space-y-2 text-sm">
               <li className="flex items-center gap-2">
                 <Phone className="text-teal-400 w-5 h-5" />
-                +233 123 456 789
+                +233240042791
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="text-teal-400 w-5 h-5" />
-                scomatahenterprise@gmail.com
+                Schomatah.guy2@gmail.com
               </li>
               <li className="flex items-center gap-2">
                 <MapPin className="text-teal-400 w-5 h-5" />
-                Accra, Ghana
+                Agogo, Asante Akim North, Ghana
               </li>
             </ul>
           </div>

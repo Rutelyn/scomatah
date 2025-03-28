@@ -17,12 +17,6 @@ const K = {
             path: "/products"
         },
         
-        
-        {
-            name: "Recipes",
-            path: "/recipes"
-        },
-
         {
             name: "Sustainability",
             path: "/sustainability"
