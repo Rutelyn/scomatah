@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <nav className="bg-white shadow-md w-full overflow-hidden">
       <div className="flex justify-between items-center px-4 py-3">
-        <span className="w-16 h-4 flex-shrink-0 mb-5">
+        <span className="w-20 h-6 flex-shrink-0 mb-4">
           <img src={logo} alt="logo" />
         </span>
         <div className="hidden md:flex gap-x-5">

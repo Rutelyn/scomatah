@@ -22,7 +22,7 @@ const ContactUs = () => {
   };
 
   return (
-    <div className="bg-gray-100 text-gray-800 py-16 px-6 sm:px-12 lg:px-20">
+    <div className="bg-gray-100 text-gray-800 py-8 px-4 sm:px-8 lg:px-16">
       <div className="text-center mb-10">
         <h1 className="text-3xl sm:text-4xl font-bold text-teal-600">Get in Touch</h1>
         <p className="text-gray-600 mt-2 text-lg">
@@ -30,7 +30,7 @@ const ContactUs = () => {
         </p>
       </div>
 
-      <div className="bg-white p-6 rounded-lg shadow-md">
+      <div className="bg-white p-4 rounded-lg shadow-md">
         <h2 className="text-xl font-semibold text-teal-600 mb-4">Partner With Us</h2>
         <p className="text-gray-700">
           We welcome partnerships with local businesses and distributors. Let's work together
@@ -42,7 +42,7 @@ const ContactUs = () => {
       </div>
 
       {/* Contact Form */}
-      <div className="mt-12 bg-white p-6 rounded-lg shadow-md max-w-2xl mx-auto">
+      <div className="mt-9 bg-white p-4 rounded-lg shadow-md max-w-2xl mx-auto">
         <h2 className="text-xl font-semibold text-teal-600 mb-4">Contact Form</h2>
         <form onSubmit={handleSubmit} className="space-y-4">
           <input type="text" name="name" placeholder="Your Name" value={formData.name} onChange={handleChange} className="w-full p-3 border border-gray-300 rounded-md" required />

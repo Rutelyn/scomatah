@@ -7,7 +7,7 @@ const Sustainability = () => {
       <img
         src={tainIceStraw3}
         alt="Strawberry Plantain Ice Cream"
-        className="absolute top-0 left-0 w-full h-full object-cover"
+        className="absolute top-0 left-0 w-full h-fit object-cover"
       />
 
       {/* Centered Card */}
