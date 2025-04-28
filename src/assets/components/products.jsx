@@ -44,13 +44,7 @@ const Products = () => {
         <ProductsCard images={[yoddyCan3, yoddyCan1]} title="Yoddy (Can)" />
         <ProductsCard images={[yoddySac2, yoddySac1]} title="Yoddy (Sachet)" />
       </div>
-      <div className="flex justify-center items-center">
-        <Link to="/contactus">
-          <button className="bg-white text-black font-semibold py-3 px-6 rounded-full shadow-md hover:bg-gray-200 transition duration-300">
-            Make a Purchase
-          </button>
-        </Link>
-      </div>
+     
     </div>
   )
 }

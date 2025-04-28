@@ -1,4 +1,4 @@
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider, } from "react-router-dom";
 import AboutUs from "./assets/components/aboutUs";
 import RootLayout from "./layouts/rootLayout";
 import LandingPage from "./pages/landingPage";
@@ -13,75 +13,82 @@ import FruityDelight from "./assets/components/fruityDelight";
 import PlantainShake from "./assets/components/plantainShake";
 import ThankYou from "./assets/components/thankYou";
 
+
 const router = createBrowserRouter(
   [
-    {path: "/",
-        element: <RootLayout/>,
-        children:[
-          {
-            index: true,
-            element: <LandingPage/>
-          },
-          
-          {
-            name: "Home",
-            path: "/"
+    {
+      path: "/",
+      element: <RootLayout />,
+      children: [
+        {
+          index: true,
+          element: <LandingPage />
         },
-        
+
+        {
+          name: "Home",
+          path: "/"
+        },
+
         {
           path: "/about",
-          element: <AboutUs/>
+          element: <AboutUs />
         },
         {
           path: "/products",
-          element: <Products/>
+          element: <Products />
         },
         {
-            path: "/sustainability",
-            element: <Sustainability/>
-          },
-          {
-            path: "/contactus",
-            element: <ContactUs/>
-          },
-        
-        ]
-      },
-      {
-        path: "/yogurtpunch",
-        element: <YogurtPunch/>
-      },
-      {
-        path: "/sweetblend",
-        element: <SweetBlend/>
-      },
-      {
-        path: "/chilledtreat",
-        element: <ChilledTreat/>
-      },
-      {
-        path: "/berrymix",
-        element: <BerryMix/>
-      },
-      {
-        path: "/fruitydelight",
-        element: <FruityDelight/>
-      },
-      {
-        path: "/plantainshake",
-        element: <PlantainShake/>
-      },
-      {
-        path: "/thankyou",
-        element: <ThankYou/>
-      },
-  ]  
+          path: "/sustainability",
+          element: <Sustainability />
+        },
+        {
+          path: "/contactus",
+          element: <ContactUs />
+        },
+
+      ]
+    },
+    {
+      path: "/yogurtpunch",
+      element: <YogurtPunch />
+    },
+    {
+      path: "/sweetblend",
+      element: <SweetBlend />
+    },
+    {
+      path: "/chilledtreat",
+      element: <ChilledTreat />
+    },
+    {
+      path: "/berrymix",
+      element: <BerryMix />
+    },
+    {
+      path: "/fruitydelight",
+      element: <FruityDelight />
+    },
+    {
+      path: "/plantainshake",
+      element: <PlantainShake />
+    },
+    {
+      path: "/thankyou",
+      element: <ThankYou />
+    },
+  ]
 )
+
+ 
 function App() {
-    return(
+  return (
+  
         <>
-        <RouterProvider router={router}/>
+          <RouterProvider router={router} />
         </>
-    )
+      
+  );
 }
+
 export default App

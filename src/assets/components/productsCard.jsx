@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const ProductsCard = ({ images = [], title }) => {
   const [hovered, setHovered] = useState(false);
@@ -18,7 +19,17 @@ const ProductsCard = ({ images = [], title }) => {
           className="w-full h-full object-cover rounded-lg transition-all duration-300"
         />
       </div>
+      
       <p className="font-serif font-bold text-lg text-black mt-2">{title}</p>
+     
+      <div className="flex justify-center items-center">
+        <Link to="/contactus">
+          <button className="bg-white text-black font-semibold py-1 px-3 rounded-3xl shadow-md hover:bg-amber-200 transition duration-300">
+            Purchase
+          </button>
+        </Link>
+      </div>
+     
     </div>
   );
 };

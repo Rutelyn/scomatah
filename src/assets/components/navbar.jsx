@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <nav className="bg-white shadow-md w-full overflow-hidden">
       <div className="flex justify-between items-center px-4 py-3">
-        <span className="w-16 h-4 flex-shrink-0">
+        <span className="w-16 h-4 flex-shrink-0 mb-5">
           <img src={logo} alt="logo" />
         </span>
         <div className="hidden md:flex gap-x-5">
@@ -21,7 +21,7 @@ const Navbar = () => {
             <Link
               key={index}
               to={item.path}
-              className="border border-[#834d21] px-3 py-2 rounded transition duration-200 hover:bg-[#ffce02] hover:text-white"
+              className=""
             >
               {item.name}
             </Link>

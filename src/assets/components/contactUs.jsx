@@ -1,6 +1,5 @@
-import { Mail, MapPin, Phone } from "lucide-react";
 import { useState } from "react";
-import { useNavigate } from "react-router-dom"; 
+import { useNavigate } from "react-router-dom";
 
 const ContactUs = () => {
   const navigate = useNavigate(); // Initialize navigate
@@ -17,7 +16,7 @@ const ContactUs = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    
+
     // Store form data in localStorage or context if needed
     navigate("/thankyou"); // Redirect to Thank You page
   };
@@ -31,37 +30,15 @@ const ContactUs = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
-        <div className="bg-white p-6 rounded-lg shadow-md">
-          <h2 className="text-xl font-semibold text-teal-600 mb-4">Contact Information</h2>
-          <ul className="space-y-4">
-            <li className="flex items-center gap-3">
-              <Phone className="text-teal-500 w-5 h-5" />
-              <span>+233240042791</span>
-            </li>
-            <li className="flex items-center gap-3">
-              <Mail className="text-teal-500 w-5 h-5" />
-              <span>Schomatah.guy2@gmail.com</span>
-              <span>osarfo10@gmail.com</span>
-            </li>
-            <li className="flex items-center gap-3">
-              <MapPin className="text-teal-500 w-5 h-5" />
-              <span>Agogo Asante Akim North </span>
-              <span>(ABURO DAN HO) Opposite Telenergy/Asadu Royal Filling Station</span>
-            </li>
-          </ul>
-        </div>
-
-        <div className="bg-white p-6 rounded-lg shadow-md">
-          <h2 className="text-xl font-semibold text-teal-600 mb-4">Partner With Us</h2>
-          <p className="text-gray-700">
-            We welcome partnerships with local businesses and distributors. Let's work together
-            to bring high-quality, sustainable products to more people.
-          </p>
-          <p className="text-gray-700 mt-2">
-            Reach out via email or follow us on social media to start a conversation.
-          </p>
-        </div>
+      <div className="bg-white p-6 rounded-lg shadow-md">
+        <h2 className="text-xl font-semibold text-teal-600 mb-4">Partner With Us</h2>
+        <p className="text-gray-700">
+          We welcome partnerships with local businesses and distributors. Let's work together
+          to bring high-quality, sustainable products to more people.
+        </p>
+        <p className="text-gray-700 mt-2">
+          Reach out via email or follow us on social media to start a conversation.
+        </p>
       </div>
 
       {/* Contact Form */}

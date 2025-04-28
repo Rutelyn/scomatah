@@ -1,33 +1,26 @@
-import { useState, useEffect } from "react";
-import tainIce3 from "../images/tainIce3.jpg";
 import tainIceStraw3 from "../images/tainIceStraw3.jpg";
-import tainIceVan3 from "../images/tainIceVan3.jpg";
-
-const images = [tainIce3, tainIceStraw3, tainIceVan3];
 
 const Sustainability = () => {
-  const [currentImage, setCurrentImage] = useState(0);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentImage((prev) => (prev + 1) % images.length);
-    }, 5000); // Change image every 5 seconds
-
-    return () => clearInterval(interval);
-  }, []);
-
   return (
     <div className="relative w-full h-screen overflow-hidden">
+      {/* Fullscreen background image */}
       <img
-        src={images[currentImage]}
-        alt="Sustainability"
-        className="absolute top-0 left-0 w-full h-full object-cover transition-opacity duration-1000 ease-in-out opacity-90"
+        src={tainIceStraw3}
+        alt="Strawberry Plantain Ice Cream"
+        className="absolute top-0 left-0 w-full h-full object-cover"
       />
 
-      <div className="absolute inset-0 flex flex-col place-items-end m-12 text-white px-6 bg-opacity-20">
-        <h1 className="text-7xl font-bold mb-4 animate-fade-in">Sustainability</h1>
-        <p className="text-lg mb-2 animate-fade-in-delay">Focus on reducing waste in the plantain supply chain.</p>
-        <p className="text-lg animate-fade-in-delay-2">Community programs supporting local farmers.</p>
+      {/* Centered Card */}
+      <div className="relative flex items-center justify-center h-full">
+        <div className=" bg-opacity-80 backdrop-blur-md rounded-2xl p-10 shadow-2xl max-w-md text-center">
+          <h1 className="text-4xl font-bold text-white mb-4">Sustainability</h1>
+          <p className="text-lg text-white mb-2">
+            Fresh ideas for a sustainable plantain journey.
+          </p>
+          <p className="text-lg text-white">
+            Empowering farmers, reducing waste, inspiring communities.
+          </p>
+        </div>
       </div>
     </div>
   );
